@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("/image/Teabanner.jfif");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  padding: 2px;
+}
+
+.hero-text p {
+  padding: 10px;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.logo img {
+  position: fixed;
+  margin: 10px 15px 15px 10px;
+  left: 0;
+  display: inline;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+nav {
+  position: fixed;
+  display: inline;
+  right: 0;
+  text-align: center;
+}
+
+ul {
+  padding: 15px;
+  padding-right: 50px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 3em;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(132, 199, 199);
+}
+
+a:hover {
+  color: rgb(41, 122, 95);
+}
+
+.active {
+  color: #630606;
+}
+
+/*........About Us.....*/
+#content {
+  overflow: hidden;
+  margin: 50px;
+  padding: 20px;
+}
+
+#content img {
+  float: right;
+  margin-left: 20px;
+  width: 170;
+  height: 170;
+}
+
+#content h1 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*......categories....*/
+h2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* ...1.Fresh Tea...*/
+
+.container1 {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.container1 img {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.section1 h3,
+.section1 p {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*....2.Milk Tea...*/
+.container2 {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.container2 img {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+
+
+
+
+/*....3.Fruit Tea....*/
+.container3 {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.container3 img {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+
+/*....4.Specials...*/
+.container4 {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.container4 img {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+/*.....5.Hot tea...*/
+.container5 {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.container5 img {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+
+/*....Aside....*/
+.aside h3 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+div.aside button {
+  border:#555;
+  outline: 0;
+  display: block;
+  width: 5%;
+  height: 40px;
+  margin:auto;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  
+}
+div.aside button:hover{
+  background:gray;
+  color:white;
+}
+
+/*....footer....*/
+footer{
+  width:80%;
+  margin: auto;
+  text-align:center;
+  padding-top: 100px;
+  padding: 50px;
+}
